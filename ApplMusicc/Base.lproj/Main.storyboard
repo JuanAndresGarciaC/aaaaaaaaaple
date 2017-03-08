@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ApplMusicc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,118 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="htC-nO-nFg">
+                                <rect key="frame" x="25" y="36" width="318" height="242"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWx-0S-7Ri">
+                                <rect key="frame" x="163" y="295" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWF-d5-pia">
+                                <rect key="frame" x="161" y="333" width="42" height="30"/>
+                                <state key="normal" title="Pause"/>
+                                <connections>
+                                    <action selector="Pausa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GkQ-sg-jh2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTd-En-sGZ">
+                                <rect key="frame" x="304" y="333" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="Stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3tz-HU-Lax"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1u-CH-eiS">
+                                <rect key="frame" x="157" y="380" width="50" height="30"/>
+                                <state key="normal" title="Shuffle"/>
+                                <connections>
+                                    <action selector="shuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bT-9S-3OY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5d-Pj-fZt">
+                                <rect key="frame" x="133" y="428" width="99" height="30"/>
+                                <state key="normal" title="Tu No Vive Así"/>
+                                <connections>
+                                    <action selector="TNVA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIi-W9-tXQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21s-2q-Qpg">
+                                <rect key="frame" x="160" y="466" width="44" height="30"/>
+                                <state key="normal" title="Crecia"/>
+                                <connections>
+                                    <action selector="Crecia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mpf-IR-oB6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbQ-8V-tIv">
+                                <rect key="frame" x="99" y="504" width="166" height="30"/>
+                                <state key="normal" title="Si Tu Novio Te Deja Sola"/>
+                                <connections>
+                                    <action selector="STNTDS:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jH-dg-6xS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ir9-Ep-TkW">
+                                <rect key="frame" x="138" y="532" width="89" height="30"/>
+                                <state key="normal" title="Diabla Remix"/>
+                                <connections>
+                                    <action selector="Diabla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ze-ha-pSr"/>
+                                    <action selector="DiablaRX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xni-Ne-uhD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huX-wF-He0">
+                                <rect key="frame" x="139" y="570" width="86" height="30"/>
+                                <state key="normal" title="To Te Llueve"/>
+                                <connections>
+                                    <action selector="TTL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkh-nh-vlU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xo0-vy-nqK">
+                                <rect key="frame" x="33" y="333" width="30" height="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YgK-fI-Jwc"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="htC-nO-nFg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2C7-6c-XH6"/>
+                            <constraint firstItem="xbQ-8V-tIv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4V1-du-ejx"/>
+                            <constraint firstItem="bWF-d5-pia" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Wi-Ml-phx"/>
+                            <constraint firstItem="xbQ-8V-tIv" firstAttribute="top" secondItem="21s-2q-Qpg" secondAttribute="bottom" constant="8" symbolic="YES" id="AcK-zz-4Kw"/>
+                            <constraint firstItem="GWx-0S-7Ri" firstAttribute="top" secondItem="htC-nO-nFg" secondAttribute="bottom" constant="17" id="DZD-49-S3q"/>
+                            <constraint firstItem="P1u-CH-eiS" firstAttribute="top" secondItem="bWF-d5-pia" secondAttribute="bottom" constant="17" id="FEh-A1-Mpt"/>
+                            <constraint firstItem="huX-wF-He0" firstAttribute="top" secondItem="ir9-Ep-TkW" secondAttribute="bottom" constant="8" symbolic="YES" id="FFu-38-OB7"/>
+                            <constraint firstItem="ir9-Ep-TkW" firstAttribute="top" secondItem="21s-2q-Qpg" secondAttribute="bottom" constant="36" id="JV6-6d-Woi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dTd-En-sGZ" secondAttribute="trailing" constant="23" id="MId-Wl-G8Z"/>
+                            <constraint firstItem="bWF-d5-pia" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nlw-Om-Wae"/>
+                            <constraint firstItem="ir9-Ep-TkW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Obw-Zj-RO0"/>
+                            <constraint firstItem="GWx-0S-7Ri" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R18-Qu-NaP"/>
+                            <constraint firstItem="htC-nO-nFg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ROL-Ow-afV"/>
+                            <constraint firstItem="htC-nO-nFg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="X0X-JK-xjD"/>
+                            <constraint firstItem="B5d-Pj-fZt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bmP-iY-Rga"/>
+                            <constraint firstItem="Xo0-vy-nqK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bqC-hX-Ckj"/>
+                            <constraint firstItem="huX-wF-He0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gQn-ne-zNT"/>
+                            <constraint firstItem="21s-2q-Qpg" firstAttribute="top" secondItem="B5d-Pj-fZt" secondAttribute="bottom" constant="8" symbolic="YES" id="gdA-lV-lYe"/>
+                            <constraint firstItem="bWF-d5-pia" firstAttribute="top" secondItem="GWx-0S-7Ri" secondAttribute="bottom" constant="17" id="jNT-Lm-TUm"/>
+                            <constraint firstItem="21s-2q-Qpg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kpU-2M-cyp"/>
+                            <constraint firstItem="bWF-d5-pia" firstAttribute="leading" secondItem="Xo0-vy-nqK" secondAttribute="trailing" constant="98" id="mvD-ey-Qrw"/>
+                            <constraint firstItem="P1u-CH-eiS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="upA-ow-BCq"/>
+                            <constraint firstItem="dTd-En-sGZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vHt-Gs-gY0"/>
+                            <constraint firstItem="B5d-Pj-fZt" firstAttribute="top" secondItem="P1u-CH-eiS" secondAttribute="bottom" constant="18" id="xCL-Sz-PGp"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imagen" destination="htC-nO-nFg" id="b2g-dM-BRc"/>
+                        <outlet property="nombre" destination="GWx-0S-7Ri" id="eIi-h8-do0"/>
+                        <outletCollection property="imm" destination="htC-nO-nFg" collectionClass="NSMutableArray" id="IGb-Bp-kDM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>

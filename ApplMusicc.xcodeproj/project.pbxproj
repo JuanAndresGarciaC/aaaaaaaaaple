@@ -14,6 +14,21 @@
 		105E95051E6E109800EA0955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105E95031E6E109800EA0955 /* LaunchScreen.storyboard */; };
 		105E95101E6E109800EA0955 /* ApplMusiccTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E950F1E6E109800EA0955 /* ApplMusiccTests.swift */; };
 		105E951B1E6E109900EA0955 /* ApplMusiccUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105E951A1E6E109900EA0955 /* ApplMusiccUITests.swift */; };
+		105E95291E6E1ACD00EA0955 /* bbbazbyyy.mov in Resources */ = {isa = PBXBuildFile; fileRef = 105E95281E6E1ACD00EA0955 /* bbbazbyyy.mov */; };
+		105E952B1E6E1AE100EA0955 /* diabka remixx.mov in Resources */ = {isa = PBXBuildFile; fileRef = 105E952A1E6E1AE100EA0955 /* diabka remixx.mov */; };
+		105E952D1E6E1AED00EA0955 /* crecia.mov in Resources */ = {isa = PBXBuildFile; fileRef = 105E952C1E6E1AED00EA0955 /* crecia.mov */; };
+		105E952F1E6E1AFA00EA0955 /* el sica totlueve.mov in Resources */ = {isa = PBXBuildFile; fileRef = 105E952E1E6E1AFA00EA0955 /* el sica totlueve.mov */; };
+		105E95311E6E1B0200EA0955 /* katekesiss.mov in Resources */ = {isa = PBXBuildFile; fileRef = 105E95301E6E1B0200EA0955 /* katekesiss.mov */; };
+		105E95331E6E1BBD00EA0955 /* 1487625364diabla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 105E95321E6E1BBD00EA0955 /* 1487625364diabla.jpg */; };
+		105E95351E6E1BD000EA0955 /* Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 105E95341E6E1BD000EA0955 /* Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg */; };
+		105E95371E6E1BDF00EA0955 /* justin-quiles-bad-bunny-almighty-crecia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 105E95361E6E1BDF00EA0955 /* justin-quiles-bad-bunny-almighty-crecia.jpg */; };
+		105E95391E6E1BE800EA0955 /* maxresdefault-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 105E95381E6E1BE800EA0955 /* maxresdefault-3.jpg */; };
+		105E953B1E6E1BEE00EA0955 /* Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 105E953A1E6E1BEE00EA0955 /* Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg */; };
+		105E95471E70BE4900EA0955 /* El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105E95461E70BE4900EA0955 /* El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3 */; };
+		105E95491E70BE4F00EA0955 /* Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105E95481E70BE4F00EA0955 /* Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3 */; };
+		105E954B1E70BE5300EA0955 /* J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105E954A1E70BE5300EA0955 /* J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3 */; };
+		105E954D1E70BE5900EA0955 /* Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105E954C1E70BE5900EA0955 /* Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3 */; };
+		105E954F1E70BE5E00EA0955 /* Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 105E954E1E70BE5E00EA0955 /* Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		105E95161E6E109900EA0955 /* ApplMusiccUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplMusiccUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105E951A1E6E109900EA0955 /* ApplMusiccUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplMusiccUITests.swift; sourceTree = "<group>"; };
 		105E951C1E6E109900EA0955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105E95281E6E1ACD00EA0955 /* bbbazbyyy.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bbbazbyyy.mov; sourceTree = "<group>"; };
+		105E952A1E6E1AE100EA0955 /* diabka remixx.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "diabka remixx.mov"; sourceTree = "<group>"; };
+		105E952C1E6E1AED00EA0955 /* crecia.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = crecia.mov; sourceTree = "<group>"; };
+		105E952E1E6E1AFA00EA0955 /* el sica totlueve.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "el sica totlueve.mov"; sourceTree = "<group>"; };
+		105E95301E6E1B0200EA0955 /* katekesiss.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = katekesiss.mov; sourceTree = "<group>"; };
+		105E95321E6E1BBD00EA0955 /* 1487625364diabla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1487625364diabla.jpg; sourceTree = "<group>"; };
+		105E95341E6E1BD000EA0955 /* Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg"; sourceTree = "<group>"; };
+		105E95361E6E1BDF00EA0955 /* justin-quiles-bad-bunny-almighty-crecia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "justin-quiles-bad-bunny-almighty-crecia.jpg"; sourceTree = "<group>"; };
+		105E95381E6E1BE800EA0955 /* maxresdefault-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maxresdefault-3.jpg"; sourceTree = "<group>"; };
+		105E953A1E6E1BEE00EA0955 /* Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg"; sourceTree = "<group>"; };
+		105E95461E70BE4900EA0955 /* El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3"; sourceTree = "<group>"; };
+		105E95481E70BE4F00EA0955 /* Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3"; sourceTree = "<group>"; };
+		105E954A1E70BE5300EA0955 /* J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3"; sourceTree = "<group>"; };
+		105E954C1E70BE5900EA0955 /* Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3"; sourceTree = "<group>"; };
+		105E954E1E70BE5E00EA0955 /* Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +127,21 @@
 		105E94F91E6E109800EA0955 /* ApplMusicc */ = {
 			isa = PBXGroup;
 			children = (
+				105E954E1E70BE5E00EA0955 /* Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3 */,
+				105E954C1E70BE5900EA0955 /* Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3 */,
+				105E954A1E70BE5300EA0955 /* J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3 */,
+				105E95481E70BE4F00EA0955 /* Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3 */,
+				105E95461E70BE4900EA0955 /* El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3 */,
+				105E95361E6E1BDF00EA0955 /* justin-quiles-bad-bunny-almighty-crecia.jpg */,
+				105E95321E6E1BBD00EA0955 /* 1487625364diabla.jpg */,
+				105E953A1E6E1BEE00EA0955 /* Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg */,
+				105E95381E6E1BE800EA0955 /* maxresdefault-3.jpg */,
+				105E95341E6E1BD000EA0955 /* Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg */,
+				105E952C1E6E1AED00EA0955 /* crecia.mov */,
+				105E952E1E6E1AFA00EA0955 /* el sica totlueve.mov */,
+				105E952A1E6E1AE100EA0955 /* diabka remixx.mov */,
+				105E95281E6E1ACD00EA0955 /* bbbazbyyy.mov */,
+				105E95301E6E1B0200EA0955 /* katekesiss.mov */,
 				105E94FA1E6E109800EA0955 /* AppDelegate.swift */,
 				105E94FC1E6E109800EA0955 /* ViewController.swift */,
 				105E94FE1E6E109800EA0955 /* Main.storyboard */,
@@ -236,8 +281,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				105E95051E6E109800EA0955 /* LaunchScreen.storyboard in Resources */,
+				105E952B1E6E1AE100EA0955 /* diabka remixx.mov in Resources */,
+				105E95351E6E1BD000EA0955 /* Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así.jpg in Resources */,
 				105E95021E6E109800EA0955 /* Assets.xcassets in Resources */,
+				105E952D1E6E1AED00EA0955 /* crecia.mov in Resources */,
 				105E95001E6E109800EA0955 /* Main.storyboard in Resources */,
+				105E95331E6E1BBD00EA0955 /* 1487625364diabla.jpg in Resources */,
+				105E953B1E6E1BEE00EA0955 /* Si-Tu-Novio-Te-Deja-Sola-J-Balvin-x-Bad-Bunny-KELOKE507-COM_-mp3-image.jpg in Resources */,
+				105E95391E6E1BE800EA0955 /* maxresdefault-3.jpg in Resources */,
+				105E95311E6E1B0200EA0955 /* katekesiss.mov in Resources */,
+				105E95291E6E1ACD00EA0955 /* bbbazbyyy.mov in Resources */,
+				105E95471E70BE4900EA0955 /* El Sica - To' Te Llueve ft. Arcángel, Brytiago [Official Video].mp3 in Resources */,
+				105E954B1E70BE5300EA0955 /* J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny.mp3 in Resources */,
+				105E95491E70BE4F00EA0955 /* Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty.mp3 in Resources */,
+				105E954D1E70BE5900EA0955 /* Farruko Ft Bad Bunny & Lary Over - Diabla Remix [Trap X Ficante].mp3 in Resources */,
+				105E95371E6E1BDF00EA0955 /* justin-quiles-bad-bunny-almighty-crecia.jpg in Resources */,
+				105E952F1E6E1AFA00EA0955 /* el sica totlueve.mov in Resources */,
+				105E954F1E70BE5E00EA0955 /* Arcangel x Bad Bunny - Tu No Vive Asi [Video oficial].mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
