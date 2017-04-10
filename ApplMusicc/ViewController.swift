@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     private var reproductor: AVAudioPlayer!
     var x = 0
     var asset = ""
+    var volumen: Float = 0.5
     func getImage (y:Int) -> String {
         if y == 1 {
             asset = "Arcangel-Ft.-Bad-Bunny-Tu-No-Vive-Así"
@@ -101,7 +102,9 @@ class ViewController: UIViewController {
             imagen.image = UIImage(named:getImage(y: 5))
             nombre.text = "To Te Llueve"
         }
-        
+        reproductor.stop()
+        reproductor.volume = volumen
+        reproductor.play()
     }
     
     @IBAction func TNVA(_ sender: Any) {
@@ -114,7 +117,9 @@ class ViewController: UIViewController {
         x = 1
         imagen.image = UIImage(named:getImage(y: 1))
         nombre.text = "Tu No Vive Así"
-        
+        reproductor.stop()
+        reproductor.volume = volumen
+        reproductor.play()
     }
     @IBAction func Crecia(_ sender: Any) {
          let sonidoURL = Bundle.main.url(forResource: "Justin Quiles - Crecia [Official music video] Ft. Bad Bunny & Almighty", withExtension: "mp3")
@@ -126,7 +131,9 @@ class ViewController: UIViewController {
         x = 2
         imagen.image = UIImage(named:getImage(y: 2))
         nombre.text = "Crecia"
-        
+        reproductor.stop()
+        reproductor.volume = volumen
+        reproductor.play()
     }
     @IBAction func STNTDS(_ sender: UIButton) {
          let sonidoURL = Bundle.main.url(forResource: "J. Balvin - Si Tu Novio Te Deja Sola ft. Bad Bunny", withExtension: "mp3")
@@ -138,7 +145,9 @@ class ViewController: UIViewController {
         x = 3
         imagen.image = UIImage(named:getImage(y: 3))
         nombre.text = "Si Tu Novio Te Deja Sola"
-        
+        reproductor.stop()
+        reproductor.volume = volumen
+        reproductor.play()
     }
     
     @IBAction func DiablaRX(_ sender: UIButton) {
@@ -147,11 +156,14 @@ class ViewController: UIViewController {
             try reproductor = AVAudioPlayer(contentsOf: sonidoURL!)
         }catch{
             print("error al cargar el archivo de sonido")
+            
         }
         x = 4
         imagen.image = UIImage(named:getImage(y: 4))
         nombre.text = "Diabla Remix"
-        
+        reproductor.stop()
+        reproductor.volume = volumen
+        reproductor.play()
 
     }
     
@@ -165,11 +177,14 @@ class ViewController: UIViewController {
             x = 5
         imagen.image = UIImage(named:getImage(y: 5))
             nombre.text = "To Te Llueve"
-            
+            reproductor.stop()
+            reproductor.volume = volumen
+            reproductor.play()
     }
   
     @IBAction func play(_ sender: UIButton) {
         if !reproductor.isPlaying{
+            reproductor.volume = volumen
             reproductor.play()
         }
     }
@@ -189,6 +204,15 @@ class ViewController: UIViewController {
             reproductor.currentTime = 0.0
         }
     }
+    @IBAction func Volumen(_ sender: UISlider) {
+        let currentValue = Float(sender.value)
+        volumen = Float(currentValue/100)
+        
+        if(reproductor != nil){
+            reproductor.volume = volumen
+        }
 
+    }
+    
 }
 
